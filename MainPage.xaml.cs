@@ -10,8 +10,8 @@ namespace App7
 {
     public partial class MainPage : ContentPage
     {
-        private const long CommunityId = Сюда введите айди вашего сообщества; // ID вашего сообщества "ВКонтакте"
-        private const long UserId = Сюда введите нужный user-id конкретного человека; // ID пользователя, которому вы хотите отправить сообщение
+        private const long CommunityId = Сюда_введите_айди_вашего_сообщества; // ID вашего сообщества "ВКонтакте"
+        private const long UserId = Сюда_введите_нужный_user-id_конкретного человека; // ID пользователя, которому вы хотите отправить сообщение
         private const string AccessToken = "Сюда введите ваш API из вк, гайд вы можете найти в интернете"; // API
 
         private VkApi api;
