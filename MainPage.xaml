@@ -1,0 +1,16 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App7"
+             x:Class="App7.MainPage">
+    <StackLayout>
+        <StackLayout.Children>
+            <Button Text="Ваш текст1" Clicked="Button1_Clicked" BackgroundColor="Green" TextColor="White" />
+            <Button Text="Ваш текст2" Clicked="Button2_Clicked" BackgroundColor="Orange" TextColor="White" />
+            <Button Text="Ваш текст3" Clicked="Button3_Clicked" BackgroundColor="Blue" TextColor="White" />
+            <Button Text="Ваш текст4" Clicked="Button4_Clicked" BackgroundColor="Purple" TextColor="White" />
+            <Button Text="Ваш текст5" Clicked="Button5_Clicked" BackgroundColor="Red" TextColor="White" />
+            <Button Text="Ваш текст6" Clicked="Button6_Clicked" BackgroundColor="Yellow" TextColor="White" />
+            <Button Text="Ваш текст7" Clicked="Button7_Clicked" BackgroundColor="Pink" TextColor="White" />
+        </StackLayout.Children>
+    </StackLayout>
+</ContentPage>
